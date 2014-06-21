@@ -10,7 +10,6 @@
 ## and therefor the inverse too.
 ## The functions has subfunctions which set and get the matrix
 ## and the inverse of the matrix.
-
 makeCacheMatrix <- function(x = matrix()) {
     
     inv <- NULL
@@ -31,7 +30,6 @@ makeCacheMatrix <- function(x = matrix()) {
 ## This function looks for the value of the inverse in the cache
 ## if there's no value (NULL) then it calculates the inverse,
 ## stores it in the cache and returns it.
-
 cacheSolve <- function(x, ...) {
     
     inv <- x$getinverse()
